@@ -144,8 +144,8 @@ class GFF(object):
     def set_parallel(self, nt):
         return _bow_id_selector.GFF_set_parallel(self, nt)
 
-    def search(self, nq, queries, k, tags, _D, _I, nprobe, expansion):
-        return _bow_id_selector.GFF_search(self, nq, queries, k, tags, _D, _I, nprobe, expansion)
+    def search(self, nq, queries, k, tags, _D, _I, nprobe, expansion, threshold):
+        return _bow_id_selector.GFF_search(self, nq, queries, k, tags, _D, _I, nprobe, expansion, threshold)
 
 # Register GFF in _bow_id_selector:
 _bow_id_selector.GFF_swigregister(GFF)
