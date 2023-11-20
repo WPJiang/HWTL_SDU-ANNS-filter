@@ -1,7 +1,7 @@
 # HWTL_SDU-ANNS-filter
 Team Name: hwtl_sdu_anns
 
-NeurIPS 2023 Competition track- Streaming Track. The team members come from HWTL and SDU.
+NeurIPS 2023 Competition track- Filter Track. The team members come from HWTL and SDU.
 
 bigann: hwtl_sdu_anns_filter
 
